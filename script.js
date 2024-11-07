@@ -5,10 +5,10 @@ function toggleBenefits() {
 
   if (!benefitsExpanded) {
     const extraBenefits = [
-      '🚀 Growing tech ecosystem with startup opportunities',
-      '🌞 300 days of sunshine per year',
-      '🏞️ World-class museums, art galleries, and theaters',
-      '🌐 Fast, reliable internet access everywhere'
+      ' Growing tech ecosystem with startup opportunities',
+      ' 300 days of sunshine per year',
+      ' World-class museums, art galleries, and theaters',
+      ' Fast, reliable internet access everywhere'
     ];
 
     extraBenefits.forEach(benefit => {
@@ -21,12 +21,12 @@ function toggleBenefits() {
   } else {
     benefitsExpanded = false;
     benefitsList.innerHTML = `
-      <li>🌱 Clean and green environment</li>
-      <li>🏙️ State-of-the-art infrastructure</li>
-      <li>💡 High-tech economy with jobs in AI, green energy, and space exploration</li>
-      <li>🌍 Multicultural society</li>
-      <li>🛑 Low crime and high safety standards</li>
-      <li>🚴‍♀️ Access to nature trails and eco-friendly transportation</li>
+      <li> Clean and green environment</li>
+      <li> State-of-the-art infrastructure</li>
+      <li> High-tech economy with jobs in AI, green energy, and space exploration</li>
+      <li> Multicultural society</li>
+      <li> Low crime and high safety standards</li>
+      <li> Access to nature trails and eco-friendly transportation</li>
     `;
   }
 }
