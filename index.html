@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Newtopia!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Welcome to Newtopia</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#how-to-move">How to Move</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Newtopia</h2>
+      <p>Newtopia is a modern, thriving country focused on innovation, sustainability, and a high quality of life. Imagine living in a place where technology and nature coexist harmoniously, where the future is always within reach.</p>
+    </div>
+  </section>
+
+  <section id="benefits" class="section">
+    <div class="container">
+      <h2>Why Move to Newtopia?</h2>
+      <ul id="benefits-list">
+        <li>🌱 Clean and green environment</li>
+        <li>🏙️ State-of-the-art infrastructure</li>
+        <li>💡 High-tech economy with jobs in AI, green energy, and space exploration</li>
+        <li>🌍 Multicultural society</li>
+        <li>🛑 Low crime and high safety standards</li>
+        <li>🚴‍♀️ Access to nature trails and eco-friendly transportation</li>
+      </ul>
+      <button onclick="toggleBenefits()">Show More</button>
+    </div>
+  </section>
+
+  <section id="how-to-move" class="section">
+    <div class="container">
+      <h2>How to Move to Newtopia</h2>
+      <p>Relocating to Newtopia is simple! Follow these steps:</p>
+      <ol>
+        <li>Apply for a residence visa online.</li>
+        <li>Find a home with our housing portal.</li>
+        <li>Join the Newtopia community and start your new life!</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Newtopia. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
